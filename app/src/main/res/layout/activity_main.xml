@@ -5,18 +5,20 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity"
-    android:background="@color/graylight"
+    android:background="@color/smokywhite"
     android:orientation="vertical">
 
+    <!-- Profile Details -->
     <RelativeLayout
         android:layout_width="match_parent"
-        android:layout_height="405dp">
+        android:layout_height="475dp">
+
+        <!-- Image, Name and Quote Header -->
         <LinearLayout
             android:background="@drawable/gradient_background"
             android:layout_width="match_parent"
-            android:layout_height="350dp"
+            android:layout_height="375dp"
             android:orientation="vertical">
-
             <ImageView
                 android:layout_marginTop="45dp"
                 android:layout_width="150dp"
@@ -29,20 +31,36 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Eagan Martin"
-                android:textColor="@color/textwhite"
+                android:textColor="@color/smokywhite"
                 android:textStyle="bold"
                 android:textSize="21sp"/>
+
+            <TextView
+                android:layout_marginTop="15dp"
+                android:layout_marginLeft="40dp"
+                android:layout_marginRight="40dp"
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+                android:textColor="@color/lighterbluegray"
+                android:textStyle="italic"
+                android:textSize="16sp"/>
         </LinearLayout>
+
+        <!-- Cards Header -->
         <android.support.v7.widget.CardView
             android:layout_width="400dp"
-            android:layout_height="120dp"
+            android:layout_height="100dp"
             android:layout_centerHorizontal="true"
-            android:layout_marginTop="275dp">
+            android:layout_marginTop="325dp">
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:orientation="horizontal"
                 android:weightSum="3">
+
+                <!-- Menu 1 -->
                 <LinearLayout
                     android:gravity="center"
                     android:orientation="vertical"
@@ -52,17 +70,41 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Photos"
-                        android:textSize="20sp"/>
+                        android:text="Repositories"
+                        android:textSize="18sp"/>
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="8"
+                        android:text="9"
                         android:textStyle="bold"
                         android:textSize="20sp"
                         android:paddingTop="10dp"
-                        android:textColor="@color/startblue"/>
+                        android:textColor="@color/mediumnavyblue"/>
                 </LinearLayout>
+
+                <!-- Menu 2 -->
+                <LinearLayout
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="match_parent">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Contributions"
+                        android:textSize="18sp"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="17"
+                        android:textStyle="bold"
+                        android:textSize="20sp"
+                        android:paddingTop="10dp"
+                        android:textColor="@color/mediumnavyblue"/>
+                </LinearLayout>
+
+                <!-- Menu 3 -->
                 <LinearLayout
                     android:gravity="center"
                     android:orientation="vertical"
@@ -73,38 +115,98 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="Followers"
-                        android:textSize="20sp"/>
+                        android:textSize="18sp"/>
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="20"
+                        android:text="1"
                         android:textStyle="bold"
                         android:textSize="20sp"
                         android:paddingTop="10dp"
-                        android:textColor="@color/startblue"/>
-                </LinearLayout>
-                <LinearLayout
-                    android:gravity="center"
-                    android:orientation="vertical"
-                    android:layout_width="0dp"
-                    android:layout_weight="1"
-                    android:layout_height="match_parent">
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="Following"
-                        android:textSize="20sp"/>
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="10"
-                        android:textStyle="bold"
-                        android:textSize="20sp"
-                        android:paddingTop="10dp"
-                        android:textColor="@color/startblue"/>
+                        android:textColor="@color/mediumnavyblue"/>
                 </LinearLayout>
             </LinearLayout>
         </android.support.v7.widget.CardView>
     </RelativeLayout>
-    
+
+    <!-- Contact Details -->
+    <LinearLayout
+        android:layout_width="360dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp">
+
+        <!-- Email -->Header
+        <LinearLayout
+            android:orientation="horizontal"
+            android:paddingLeft="25dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:layout_width="36dp"
+                android:layout_height="36dp"
+                android:src="@drawable/email"/>
+            <TextView
+                android:layout_gravity="center_vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="20dp"
+                android:text="mece.martinece@gmail.com"/>
+        </LinearLayout>
+
+        <!-- Phone -->
+        <LinearLayout
+            android:orientation="horizontal"
+            android:paddingLeft="25dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:layout_width="36dp"
+                android:layout_height="36dp"
+                android:src="@drawable/phone"/>
+            <TextView
+                android:layout_gravity="center_vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="20dp"
+                android:text="+63 900 000 0000"/>
+        </LinearLayout>
+
+        <!-- Work -->
+        <LinearLayout
+            android:orientation="horizontal"
+            android:paddingLeft="25dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:layout_width="36dp"
+                android:layout_height="36dp"
+                android:src="@drawable/code"/>
+            <TextView
+                android:layout_gravity="center_vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="20dp"
+                android:text="github.com/pupupulp"/>
+        </LinearLayout>
+
+        <!-- Social -->
+        <LinearLayout
+            android:orientation="horizontal"
+            android:paddingLeft="25dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:layout_width="36dp"
+                android:layout_height="36dp"
+                android:src="@drawable/camera"/>
+            <TextView
+                android:layout_gravity="center_vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="20dp"
+                android:text="500px.com/martinece"/>
+        </LinearLayout>
+    </LinearLayout>
 </LinearLayout>

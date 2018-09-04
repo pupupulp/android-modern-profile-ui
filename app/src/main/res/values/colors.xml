@@ -5,8 +5,13 @@
     <color name="colorAccent">#FF4081</color>
 
     <!-- Custom Colors -->
-    <color name="graylight">#fafafa</color>
-    <color name="startblue">#09c6df</color>
-    <color name="endblue">#0bcce6</color>
-    <color name="textwhite">#fff</color>
+    <color name="cleanwhite">#F2F2F0</color>
+    <color name="smokywhite">#D9D9D9</color>
+    <color name="lighterbluegray">#99B5DC</color>
+    <color name="bluegray">#707F8C</color>
+    <color name="lightbluegray">#7190BE</color>
+    <color name="mediumbluegray">#435671</color>
+    <color name="darknavyblue">#12243E</color>
+    <color name="darkernavyblue">#161C25</color>
+    <color name="mediumnavyblue">#204171</color>
 </resources>
