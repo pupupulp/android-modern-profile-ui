@@ -30,7 +30,7 @@
                 android:layout_gravity="center"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Eagan Martin"
+                android:text="@string/profile_name"
                 android:textColor="@color/smokywhite"
                 android:textStyle="bold"
                 android:textSize="21sp"/>
@@ -42,13 +42,13 @@
                 android:layout_gravity="center"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+                android:text="@string/profile_quote"
                 android:textColor="@color/lighterbluegray"
                 android:textStyle="italic"
                 android:textSize="16sp"/>
         </LinearLayout>
 
-        <!-- Cards Header -->
+        <!-- Developer Cards Header -->
         <android.support.v7.widget.CardView
             android:layout_width="400dp"
             android:layout_height="100dp"
@@ -60,7 +60,7 @@
                 android:orientation="horizontal"
                 android:weightSum="3">
 
-                <!-- Menu 1 -->
+                <!-- Card 1 -->
                 <LinearLayout
                     android:gravity="center"
                     android:orientation="vertical"
@@ -82,7 +82,7 @@
                         android:textColor="@color/mediumnavyblue"/>
                 </LinearLayout>
 
-                <!-- Menu 2 -->
+                <!-- Card 2 -->
                 <LinearLayout
                     android:gravity="center"
                     android:orientation="vertical"
@@ -104,7 +104,7 @@
                         android:textColor="@color/mediumnavyblue"/>
                 </LinearLayout>
 
-                <!-- Menu 3 -->
+                <!-- Card 3 -->
                 <LinearLayout
                     android:gravity="center"
                     android:orientation="vertical"
@@ -137,7 +137,7 @@
         android:layout_gravity="center"
         android:layout_marginTop="10dp">
 
-        <!-- Email -->Header
+        <!-- Email -->
         <LinearLayout
             android:orientation="horizontal"
             android:paddingLeft="25dp"
@@ -152,7 +152,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:paddingLeft="20dp"
-                android:text="mece.martinece@gmail.com"/>
+                android:text="@string/email"/>
         </LinearLayout>
 
         <!-- Phone -->
@@ -170,7 +170,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:paddingLeft="20dp"
-                android:text="+63 900 000 0000"/>
+                android:text="@string/phone"/>
         </LinearLayout>
 
         <!-- Work -->
@@ -188,7 +188,8 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:paddingLeft="20dp"
-                android:text="github.com/pupupulp"/>
+                android:autoLink="web"
+                android:text="@string/repository"/>
         </LinearLayout>
 
         <!-- Social -->
@@ -206,7 +207,8 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:paddingLeft="20dp"
-                android:text="500px.com/martinece"/>
+                android:autoLink="web"
+                android:text="@string/social"/>
         </LinearLayout>
     </LinearLayout>
 </LinearLayout>

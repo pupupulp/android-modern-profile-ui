@@ -1,3 +1,11 @@
 <resources>
     <string name="app_name">Modern Profile UI</string>
+    <string name="profile_name">Eagan Martin</string>
+    <string name="profile_quote">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+    </string>
+    <string name="email">mece.martinece@gmail.com</string>
+    <string name="phone">+63 900 000 0000</string>
+    <string name="repository">github.com/pupupulp</string>
+    <string name="social">500px.com/martinece</string>
 </resources>
