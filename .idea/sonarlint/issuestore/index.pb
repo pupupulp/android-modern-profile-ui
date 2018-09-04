@@ -1,3 +1,35 @@
 
 R
 "app/src/main/res/values/colors.xml,9/6/969faa2a5d9f5e8390e958d2c07f2cfd54676e6b
+u
+Eapp/src/main/java/com/fujiyama/pulp/modernprofileui/MainActivity.java,3/9/39b8dad49a44a30f080c043741a8d5acb6c50b30
+R
+"app/src/main/res/values/styles.xml,f/7/f79cc2688e29fcbc286fda14ae07b27c9e83690f
+S
+#app/src/main/res/values/strings.xml,d/2/d2281fbb3027de2722081a53408dd77628bf080e
+a
+1app/src/main/res/drawable/gradient_background.xml,a/f/af476e457328669a101cf4f87ef1b21c9a3cc41e
+T
+$app/src/main/res/drawable/camera.xml,7/2/72a41f45da77dfabcbcc88b145a0baa7858c457f
+R
+"app/src/main/res/drawable/code.xml,1/4/147a36a0427d21ceae967dd41b383f5f83401818
+S
+#app/src/main/res/drawable/email.xml,b/7/b7f9e42740a62956d183ae54e46341aea70e96a1
+S
+#app/src/main/res/drawable/phone.xml,e/6/e60448ea8057840177ca24661bb6148fe9067aa4
+A
+gradle.properties,2/a/2afbb999f001938c88fa43fc2ef52abf0f8213e4
+@
+app/build.gradle,f/4/f4a01d6a4fcb971362ec00a83903fd3902f52164
+Y
+)app/src/main/res/layout/activity_main.xml,7/6/76b07e40f24cce093536731477540f12e7da3cb6
+P
+ app/src/main/AndroidManifest.xml,8/c/8c55c3ccc257e5907959013f99656e4c8ec3903e
+<
+build.gradle,f/0/f07866736216be0ee2aba49e392191aeae700a35
+7
+gradlew,5/b/5bbfa66edb4db3c7c33c5181f43510990d3307f9
+@
+local.properties,0/7/0712df971a99ac4d2fccb8e0fb19f377f3374cca
+C
+ModernProfileUI.iml,1/b/1b91df8299c4611c538e3ba52ea749bee2d90a98
