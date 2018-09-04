@@ -152,11 +152,13 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:paddingLeft="20dp"
+                android:textStyle="bold"
                 android:text="@string/email"/>
         </LinearLayout>
 
         <!-- Phone -->
         <LinearLayout
+            android:layout_marginTop="25dp"
             android:orientation="horizontal"
             android:paddingLeft="25dp"
             android:layout_width="match_parent"
@@ -170,11 +172,13 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:paddingLeft="20dp"
+                android:textStyle="bold"
                 android:text="@string/phone"/>
         </LinearLayout>
 
         <!-- Work -->
         <LinearLayout
+            android:layout_marginTop="25dp"
             android:orientation="horizontal"
             android:paddingLeft="25dp"
             android:layout_width="match_parent"
@@ -189,11 +193,13 @@
                 android:layout_height="wrap_content"
                 android:paddingLeft="20dp"
                 android:autoLink="web"
+                android:textStyle="bold"
                 android:text="@string/repository"/>
         </LinearLayout>
 
         <!-- Social -->
         <LinearLayout
+            android:layout_marginTop="25dp"
             android:orientation="horizontal"
             android:paddingLeft="25dp"
             android:layout_width="match_parent"
@@ -208,6 +214,7 @@
                 android:layout_height="wrap_content"
                 android:paddingLeft="20dp"
                 android:autoLink="web"
+                android:textStyle="bold"
                 android:text="@string/social"/>
         </LinearLayout>
     </LinearLayout>
